@@ -76,6 +76,13 @@ let _validateForm = book => {
     return status;
   }
 
+  for(let bk of books){
+    if(bk.title === book.title){
+      alert('book is added!!');
+      return status;
+    }
+  }
+
   return true;
 }
 
