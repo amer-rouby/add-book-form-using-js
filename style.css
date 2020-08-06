@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+}
+
+.add-books {
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 5px 25px;
+    margin-top: 20px;
+    border: none;
+    background: rgb(193, 204, 37);
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+span {
+    display: block;
+    background-color: rgb(214, 144, 144);
+    padding: 5px;
+    display: none;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.change-bg-color {
+    margin: auto;
+    text-align: center;
+}
+
+.form-table {
+    width: 600px;
+}
+
+input[type="button"] {
+    width: 100px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+hr {
+    border: 3px solid #333;;
+}
+
+.delivered-message {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#add-message,
+#total-bill {
+    color: rgb(38, 101, 102);
+    font-size: 22px;
+}
+
+#calculate{
+    background: rgb(22, 12, 77);
+    text-align: center;
+}
+
+
+#my-calculate{
+    background: rgb(26, 151, 47);
+    text-align: center;
+}
+#calculate-form label{
+    display: inline-block;
+    color: #fff;
+    width: 150px;
+}
+
+#calculate-form input{
+    margin: 10px ;  
+}
+
+#total-bill{
+    width: 100px;
+   height: 30px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+#my-calculate-form label{
+    display: inline-block;
+    color: #fff;
+    width: 150px;
+}
+
+#my-calculate-form input{
+    margin: 10px ;  
+}
+
+#my-total-bill{
+    width: 100px;
+   height: 30px;
+    background: #fff;
+    margin-bottom: 10px;
+}
